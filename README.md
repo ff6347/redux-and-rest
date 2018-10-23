@@ -29,7 +29,7 @@ npm run bootstrap
 npm start
 ```
 
-Point your browser at [http://localhost:1234](http://localhost:1234) and open the developer console. You can also open another browser window at [http://localhost:3000](http://localhost:3000) to see if your REST API is running and get all entries of the local filesystem store under [http://localhost:3000/get-all](http://localhost:3000/get-all) (Keep in mind if you are running on a fresh install this might be empty).  
+Point your browser at [http://localhost:1234](http://localhost:1234) and open the developer console. You can also open another browser window at [http://localhost:3000](http://localhost:3000) to see if your REST API is running and get all entries of the local filesystem store. Under [http://localhost:3000/get-all](http://localhost:3000/get-all) (Keep in mind if you are running on a fresh install this might be empty).  
 
 The available routes for the API are:  
 
