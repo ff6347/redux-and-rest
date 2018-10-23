@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "outDir": "lib",
+  },
+  "include": [
+    "src/**/*",
+    "src/types/**/*"
+],
+"sourceRoot": "src",
+"exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "lib/"
+],
+  "files": [
+      "src/index.ts",
+      "src/routes.ts",
+  ]
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Page Title</title>
+  <meta name="description" content="simple rest example for redux">
+  <meta name="author" content="Fabian Morón Zirfas">
+  <style>
+      .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .flex-item{
+        align-self: center;
+        width: 100%;
+        height:3em;
+        margin:1em;
+      }
+      button{
+        border-radius: 5px;
+      }
+      </style>
+</head>
+<body>
+  <div class="flex-container">
+    <button class="flex-item" id="get-all">GET All</button>
+    <button class="flex-item" id="post-item">POST Item</button>
+  </div>
+  <div class="flex-container">
+    <textarea class="flex-item" name="in-body" id="in-body" placeholder="foooo"></textarea>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">
+      <pre>
+          <code id="target"></code>
+      </pre>
+    </div>
+  </div>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

@@ -1,3 +1,17 @@
+# macos files
+.DS_Store
+
+#Personal files
+.vscode
+*.code-workspace
+test/*.paw
+
+# parcel files
+.cache
+client/dist/*
+
+# server files from db
+server/db/*.json
 # Logs
 logs
 *.log

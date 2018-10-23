@@ -1,0 +1,21 @@
+{
+  "name": "@ixds/redux-rest-example",
+  "version": "0.1.0",
+  "description": "frontend code for redux and rest api example",
+  "main": "index.html",
+  "dependencies": {
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-unobtrusive": "^1.2.2",
+    "parcel-bundler": "^1.10.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "parcel:help": "parcel help"
+  },
+  "author": "Fabian Morón Zirfas",
+  "license": "MIT"
+}
