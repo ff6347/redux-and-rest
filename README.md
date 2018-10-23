@@ -1,6 +1,8 @@
 # Redux & Rest
 
-This is an example on how to create your own middleware for Redux that allows you to make async requests to a rest API. It is based on [this article](https://www.sohamkamani.com/blog/2016/06/05/redux-apis/) "A simplified approach to calling APIs with redux" by Soham Kamani. The original article was meant for usage with the React library. For a project here \[AT\]IXDS we stripped out the React part and made it a Vanilla-JS project. Follow the article and the code comments to understand the project.  
+![](docs/screen.png)  
+
+This is an example on how to create your own middleware for Redux that allows you to make async requests to a REST API. It is based on [this article](https://www.sohamkamani.com/blog/2016/06/05/redux-apis/) "A simplified approach to calling APIs with redux" by Soham Kamani. The original article was meant for usage with the React library. For a project here \[AT\] IXDS we stripped out the React part and made it a Vanilla-JS project. Follow the article and the code comments to understand the project.  
 
 The important files for you are `client/lib/middleware.js` and `client/lib/requests.js` these hold the main functionality that defines the middleware to make async XMLHttpRequest.
 
