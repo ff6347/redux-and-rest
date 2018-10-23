@@ -49,7 +49,7 @@ The available routes for the API are:
 If you want to dive deeper and play with the project we suggest running two separate shells in the folders `client` and `server`. On the client `npm start` runs the parcel development server in port 1234.
 On the server you have some more options.
 
-For writing Typescript with nodemon run and edit the files in `src/` **(Note that the npm-script used is only tested on MacOS. It uses a `|` for running nodemon and tsc in parallel. Might create problems in Windows)**:  
+For writing Typescript with nodemon run and edit the files in `src/` **(Note that the npm-script used is only tested on MacOS. It uses a `|` for running nodemon and tsc in parallel. That might create problems in Windows)**:  
 
 ```
 npm run dev
