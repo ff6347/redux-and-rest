@@ -7,9 +7,9 @@
     "redux": "^4.0.1"
   },
   "devDependencies": {
-    "eslint": "^5.7.0",
-    "eslint-config-unobtrusive": "^1.2.2",
-    "parcel-bundler": "^1.10.3"
+    "eslint": "5.16.0",
+    "eslint-config-unobtrusive": "1.2.5",
+    "parcel-bundler": "1.12.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
