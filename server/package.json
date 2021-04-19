@@ -20,10 +20,10 @@
   "author": "Fabian Morón Zirfas",
   "license": "MIT",
   "dependencies": {
-    "@types/cors": "^2.8.4",
-    "@types/helmet": "0.0.42",
+    "@types/cors": "^2.8.9",
+    "@types/helmet": "0.0.48",
     "@types/morgan": "^1.7.35",
-    "@types/node": "^10.12.0",
+    "@types/node": "^10.17.51",
     "cors": "^2.8.4",
     "express": "^4.16.4",
     "helmet": "^3.14.0",
